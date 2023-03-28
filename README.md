@@ -44,31 +44,41 @@ To get started with this project, follow these steps:
     JSON File (Mock Data has already been added for testing).
     
     
-    Steps on how to perform all the operations:
+    Steps on how to perform all the operations: 
+    
     - Get All Products:
+    
     1. Go to http://localhost:3001/products
     2. All the Products will be listed as entered. (In LowerCase or UpperCase, developers will be separated by spaces)
     
+    
     - Add a Product:
+    
     1. Go to http://localhost:3001/products
     2. Click on Add, you will be redirected to the add products page
     3. Fill all the fields, all of them are mandatory. (Developer names should be separated by commas ",")
     4. Click on Submit and your Product will be added to the list.
     5. Go back to the Products Lis page by clicking on Products.
     
+    
     - Search a Developer or Scrum Master:
+
     1. Go to http://localhost:3001/products
     2. On the search bar, enter the developer/scrumMaster name(Copying it from the list is preferred for ease of use) and paste onto the search field.
     3. Click on Developer or Scrum Master Button to start the Search.
     4. The results will be displayed as per the request.
     
+    
     - Editing an existing product:
+
     1. Go to http://localhost:3001/products
     2. On any Product Listed, click on Edit on the right most corner.
     3. Update the fields as requested, make sure all fields are entered as they are mandatory.
     4. Click on Update, and hence your data would be updated with a success message.
     
+    
     - Deleting an existing product:
+
     1. Go to http://localhost:3001/products
     2. On any Product Listed, click on Edit on the right most corner.
     3. Click on Delete, and hence your data would be deleted with a success message.
