@@ -14,6 +14,7 @@ git clone https://github.com/Aakash145/Aakash-Saini-IS24-full-stack-competition-
 Install the necessary dependencies for both the client and server applications. From the root directory of the project, run the following commands:
 
 cd product-backend && npm install
+
 cd ../product-frontend && npm install
 
 Start the server by running the following command from the product-backend directory:
