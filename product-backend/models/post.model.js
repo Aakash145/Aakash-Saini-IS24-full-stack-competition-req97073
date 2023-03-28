@@ -2,6 +2,7 @@ const filename = '../data/posts.json'
 let products = require(filename)
 const helper = require('../helpers/helper.js')
 
+
 //Get All Products
 function getProducts() {
     return new Promise((resolve, reject) => {
@@ -13,6 +14,7 @@ function getProducts() {
         }
         resolve(products)
     })
+
 }
 
 //Get Product By ID

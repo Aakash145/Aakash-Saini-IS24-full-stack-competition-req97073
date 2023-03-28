@@ -140,7 +140,7 @@ export default class ProductsList extends Component {
                   <td>{product.productId}</td>
                   <td>{product.productName}</td>
                   <td>{product.productOwnerName}</td>
-                  <td>{product.developers.join(", ")}</td>
+                  <td>{product.developers}</td>
                   <td>{product.startDate}</td>
                   <td>{product.scrumMasterName}</td>
                   <td>{product.methodology}</td>
