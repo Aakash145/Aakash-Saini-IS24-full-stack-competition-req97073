@@ -28,7 +28,7 @@ To get started with this project, follow these steps:
 
     𝐧𝐩𝐦 𝐬𝐭𝐚𝐫𝐭
 
-    This will start the client at http://localhost:3001. (Please verify if the React Client App is running on PORT 3001 as the PORT 3000 would already be     in use for the backend)
+    This will start the client at http://localhost:3001. (Please verify if the React Client App is running on PORT 3001 as the PORT 3000 would already be in use for the backend - The reason an environment variable is not setup or PORT not added manually was the other system might decline running it on the requested PORT)
 
 4. Navigate to http://localhost:3001/products in your web browser to view the application.
 

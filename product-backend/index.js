@@ -2,6 +2,7 @@
 const express = require('express')
 const swaggerUI = require("swagger-ui-express");
 const swaggerJsDoc = require("swagger-jsdoc");
+const PORT = 3000;
 
 //Options for Swagger Docs
 const options = {
@@ -37,7 +38,7 @@ app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(specs));
 
 
 // Starting server
-app.listen('3000', () => {
-    console.log("listening on port 3000")
+app.listen(PORT, () => {
+    console.log(`listening on port ${PORT}`)
 
 })
